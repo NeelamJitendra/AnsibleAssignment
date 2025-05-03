@@ -1,4 +1,4 @@
-# NSO A2 Deployment
+# AnsibleAssignment
 
 ## Description
 This repo contains an Ansible playbook to deploy a Flask application behind HAproxy load balancer across 3 servers.
