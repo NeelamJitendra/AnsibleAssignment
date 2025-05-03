@@ -64,7 +64,7 @@
         src: dependencies/haproxy.cfg.j2
         dest: /etc/haproxy/haproxy.cfg
         mode: '0644'
-      notify: Restart HAProxy server
+      notify: Restart haproxy server
 
     - name: Enable haproxy service to start on boot
       service:
