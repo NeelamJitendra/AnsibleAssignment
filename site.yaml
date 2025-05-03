@@ -27,7 +27,7 @@
 
     - name: Create application
       copy:
-        src: dependencies/application.py
+        src: dependencies/application2.py
         dest: /opt/flaskapp/application2.py
         mode: '0644'
 
